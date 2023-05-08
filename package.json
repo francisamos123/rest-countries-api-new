@@ -1,4 +1,5 @@
 {
+  "homepage": "francisamos123.github.io/rest-countries-api-new",
   "name": "rest-countries-api-react",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "predeploy":"npm run build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
